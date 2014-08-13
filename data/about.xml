@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<info>
+	<paragraph>
+		<title>Biography</title>
+		<text>Tim Krofecheck is a Web Developer with 10 years professional experience. Currently he lives in Queens, NY and is working for Time Inc as Web Developer since July 2012. Technologies Tim has used at Time Inc include HTML, CSS, various JavaScript frameworks (Ext.js and jQuery) along with Backbone.js and Underscore.js for developing storefronts on the iPad, iPhone and Kindle Fire (1st gen. - 8.9" HDX). Previous to working at Time Inc, Tim upheld several development roles at the New York Post as a Web Developer for 2 years and at Acxiom Digital, a Digital Marketing Agency / ESP, for 5 years. Different technologies Tim has used at the New York Post and Acxiom Digital include mySQL, PHP, SQL, Oracle Stored Procedures, Classic ASP, VBscript, XSL, XML and Ajax. </text>
+	</paragraph>
+	<paragraph>
+		<title></title>
+		<text>
+			Hobbies - video games, on/off/off-off broadway musicals, movies, music, books, building computers&lt;br&gt;
+			Interests - cooking, Android&lt;br&gt;
+			Faves - vacation, ice cream, cupcakes&lt;br&gt;
+		</text>
+	</paragraph>
+	<paragraph>
+		<title>Other activity:</title>
+		<text>
+			 May 23, 2012 - MongoNYC 2012. 10gen conference to discuss non-relational database MongoDB.
+		</text>
+	</paragraph>
+	<folder>/images/social</folder>
+	<social>
+		<icon>linkedin-icon.png</icon>
+		<url>http://www.linkedin.com/in/tkrofecheck</url>
+	</social>
+	<social>
+		<icon>facebook-icon.png</icon>
+		<url>http://www.facebook.com/tkrofecheck</url>
+	</social>
+	<social>
+		<icon>twitter-icon.png</icon>
+		<url>http://twitter.com/#!/tkrofecheck</url>
+	</social>
+	<social>
+		<icon>gplus-icon.png</icon>
+		<url>https://plus.google.com/u/0/100637854059979409240/posts</url>
+	</social>
+	<copyright>krofecheck.com - KrofechecKreations &amp;copy; 2013</copyright>
+</info>

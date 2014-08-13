@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<resume>
+	<section display="true">
+		<title>Summary</title>
+		<text>Over 8 years of progressive, comprehensive experience as an innovative web developing professional. A distinguished worker acknowledged for positive rapport among co-workers and clients. Detail oriented, with a proven ability to successfully contribute to company objectives. Well balanced workload of projects and tight deadlines in a fast paced environment. Aspiring to enhance skill set from cutting-edge technologies utilizing AJAX, jQuery, DOM manipulation, and RESTful environments.</text>
+	</section>
+	<section display="true">
+		<title>Professional Experience</title>
+		<job>
+			<company>New York Post</company>
+			<city>New York, NY</city>
+			<role>
+				<name>Web Developer / Online Production</name>
+				<duration>2010 - Present</duration>
+				<summary>Acting project manager for changes to both iPhone and Android mobile apps. Support the NYPOST.com and m.NYPOST.com websites. Built internal webtools for ad placement support between all online and mobile technologies. (JavaScript, PHP, JQuery, JSON, Joose, HTML, XML, CSS, PostgreSQL and some JSP). Solely produced feeds, templates, lists and automated campaigns for sending email via SailThru (ESP). </summary>
+				<item>Produced feeds for iPhone and Android mobile applications.</item>
+				<item>Developed a secure web-based layout tool for New York Post iPad issues.</item>
+				<item>Integrated various analytics tools (incl. Google Analytics and Chartbeat/Newsbeat) across NYPOST.com, Alexa, and Page Six Magazine websites</item>
+				<item>Implemented a shared email template to be viewed on PC &amp; Mac computers and iPhone &amp; Android mobile devices.</item>
+			</role>
+		</job>
+		<job>
+			<company>Acxiom Digital</company>
+			<city>New York, NY</city>
+			<role>
+				<name>Content Specialist Lead</name>
+				<duration>2005 - 2010</duration>
+				<summary>Customized web-based e-mail. Designed pages for client start-ups and multi-national corporations. Proven ability to hand code and use HTML for web site development. Experienced in the creation and maintenance of web pages. Experienced in analyzing, designing, developing, and implementing, web-based applications. Accomplished in optimizing graphics and web-safe colors for fast download time.</summary>
+				<item>Produced high quality work with recognition of 12+ months error-free and close attention to detail</item>
+				<item>Developed high-efficient JavaScript to pull dynamic content into marketing emails for clients such as Wyndham Hotels, BMG, Royal Caribbean, IBM, Conde Nast, Eli Lilly, Estee Lauder, and CVS</item>
+				<item>Implemented Omniture javascript code within various dynamic emails and a search API for revenue tracking on Wyndham Hotels</item>
+			</role>
+			<role>
+				<name>Program Engineer</name>
+				<duration>2007 - 2009</duration>
+				<summary>Collaborated with producers and graphic designers in the development of ASP and Oracle applications for client websites. Briefed team members on expectations, timeline and project progress. Devised and regularly revamped website presence as both a testing ground for new ideas in navigation, style sheets, loading speeds and multi-browser capabilities. Developed full life-cycle website applications from designing database schema to implementing front- and back-end components, using JavaScript and ASP/VBscript. Ported engineering's websites to main web server via source control systems. Created support documentation for web and data projects. Reorganized several websites to better facilitate access to content. Created functional web pages with custom forms. </summary>
+				<item>Developed an automated B2B solution using Oracle stored procedures (PL/SQL) for database view refreshes to subscribe and unsubscribe ~5K member per day. [Citibank]</item>
+				<item>Scheduled a CRON job to automatically pull four XML streams from client website to be flattened using XSLT into a string for import to a database. The database entry was used for dynamically populating marketing emails and websites. [Comcast]</item>
+				<item>Developed an ASP API to subscribe new members based off a preference center submission and triggering an automated confirmation email. [Upromise]</item>
+			</role>
+		</job>
+		<job>
+			<company>Linium</company>
+			<city>Albany, NY</city>
+			<role>
+				<name>Service Desk Support Professional</name>
+				<duration>2004 - 2005</duration>
+				<summary>Demonstrated effective and consistent technical support. Assisted in establishing a successful structure for a growing company. Implemented programs and procedures which provided the tools to automate a testing process. Created system implementation strategies using a standard installation methodology for all new client/server-based products. Performed hardware and software support and installation. Operated computer help desk assisting users with problems and solutions. Performed troubleshooting of computer systems and related equipment. Diagnosed hardware failure and user errors. </summary>
+				<item>Developed custom procedures using MS SQL for New York DOT and DOL to support Asset Management.</item>
+				<item>Acquired an extensive understanding of SQL and how it is used for server-side technologies.</item>
+			</role>
+		</job>
+		<job>
+			<company>Colgate University</company>
+			<city>Hamilton, NY</city>
+			<role>
+				<name>Desktop Support Team (Internship)</name>
+				<duration>2004</duration>
+				<summary>Worked with a group of 5 to 6 members to keep computers upgraded and operable on a college network. Performed many format/image restorations on a variety of laptops and PCs for students, faculty and staff.</summary>
+				<item>Integrated web page rollovers, marquees, and rotating banner ads with the use of javascript and CSS.</item>
+				<item>Implemented new areas of interest within the web portal available to students, faculty and staff.</item>
+				<item>Aided in technical support to faculty and staff with onsite software/hardware troubleshooting of PC and Mac computers.</item>
+			</role>
+		</job>
+	</section>
+	<section display="true">
+		<title>Education</title>
+		<college>
+			<name>Morrisville State College</name>
+			<city>Morrisville, NY</city>
+			<degree>
+				<type>B.A., Information Technology</type>
+				<focus>Web Development</focus>
+				<year>2004</year>
+			</degree>
+			<degree>
+				<type>A.A.S., Computer Information Systems</type>
+				<focus></focus>
+				<year>2001</year>
+			</degree>
+		</college>
+	</section>
+	<section display="true">
+		<title>Skills</title>
+		<type>
+			<name>Programming</name>
+			<skill>Ajax</skill>
+			<skill>Classic ASP</skill>
+			<skill>CSS2 / CSS3</skill>
+			<skill>D/HTML</skill>
+			<skill>JavaScript</skill>
+			<skill>Joose</skill>
+			<skill>JSON</skill>
+			<skill>jQuery</skill>
+			<skill>Perl</skill>
+			<skill>PHP5</skill>
+			<skill>REST / SOAP API</skill>
+			<skill>Shell / Bash / Korn Script</skill>
+			<skill>VBscript</skill>
+			<skill>XML</skill>
+			<skill>XSLT</skill>
+		</type>
+		<type>
+			<name>Imagery</name>
+			<skill>Cropping</skill>
+			<skill>PSD Slicing</skill>
+			<skill>Web Optimization</skill>
+		</type>
+		<type>
+			<name>Database</name>
+			<skill>MS SQL</skill>
+			<skill>MySQL</skill>
+			<skill>Oracle SQL</skill>
+			<skill>PostgreSQL</skill>
+		</type>
+		<type>
+			<name>Software</name>
+			<skill>Adobe Dreamweaver CS3/CS5</skill>
+			<skill>Adobe Photoshop CS3/CS5</skill>
+			<skill>Cisco VPN</skill>
+			<skill>EidosMedia M&amp;eacute;thode / Workbench</skill>
+			<skill>Macromedia Homesite 4.5/5</skill>
+			<skill>Microsoft Office Suite</skill>
+			<skill>Microsoft VSS</skill>
+			<skill>Notepad</skill>
+			<skill>Notepad++</skill>
+			<skill>PL/SQL</skill>
+			<skill>pgAdmin</skill>
+			<skill>PuTTY</skill>
+			<skill>SecureCRT</skill>
+			<skill>S/FTP</skill>
+			<skill>Toad</skill>
+			<skill>Tortoise SVN</skill>
+			<skill>UltraEdit</skill>
+			<skill>VMware</skill>
+		</type>
+		<type>
+			<name>Services &amp; Tools</name>
+			<skill>Chartbeat / Newsbeat</skill>
+			<skill>Dropbox</skill>
+			<skill>Google Analytics</skill>
+			<skill>Sailthru (ESP)</skill>
+		</type>
+	</section>
+	<section display="true">
+		<title>Promotions</title>
+		<job>
+			<name>Program Engineer</name>
+			<duration>2007 to 2009</duration>
+			<summary>Promoted to a developer role to serve multiple clients in web development and data management.</summary>
+		</job>
+		<job>
+			<name>Content Specialist Lead</name>
+			<duration>2007</duration>
+			<summary>Attained a level of knowledge to be considered a technical lead after 2 years for my fellow colleagues with the abilities to train, interview new applicants, and oversee the group with best practices and coding suggestions.</summary>
+		</job>
+	</section>
+	<section display="true">
+		<title>Resume</title>
+		<name>Download Hardcopy Resume</name>
+		<url>https://www.dropbox.com/s/cthp6aa4uso0nes/TimKrofecheck_Resume.docx</url>
+	</section>
+</resume>

@@ -1,0 +1,78 @@
+/* Author: Tim Krofecheck */
+
+/* Tag Styles */
+* { margin: 0; padding: 0; }
+html { overflow: scroll; overflow: -moz-scrollbars-vertical; }
+body { background: #9f9f9f; }
+br { padding: 0; margin: 0; }
+
+/* Custom Styles */
+#container { z-index: 100; position: relative; top: 0; width: 620px; margin-left: auto; margin-right: auto; font: 12px/20px 'Open Sans', sans-serif; }
+
+#header { background: #ffffff; position: absolute; top:0; width: 100%; height: 50px; margin-left: auto; margin-right: auto; border-bottom: 1px #9f9f9f dotted; z-index: 100; }
+	#header #nav { position: absolute; right: 0; width: 100%; height:18px; background: #9f9f9f; }
+		#header #nav ul { float: right; list-style-type: none; }
+		#header #nav ul > li { float: left; font-size: 20px; line-height: 20px; cursor: hand; cursor: pointer; font-weight: bolder; }
+		#header #nav ul > li > span.smcaps { font-variant: small-caps; font-weight: normal !important; }
+		#header #nav li:hover { color: #990000; font-weight: bolder; }
+		
+		#header #nav li.navOn:hover { color: #FFFFFF; }
+		#header #nav li.navOn { color: #FFFFFF; }
+	
+	#header h1 { position: absolute; top: 18px; width: 100%; height: 20px; color: #9f9f9f; }
+	#header h1 > span.logoSMALL { font-family: 'Open Sans', sans-serif; font-size: 30px; }
+	
+	
+	
+	
+#content { position: absolute; top: 50px; width:600px; font: 12px/20px Helvetica, sans-serif; background: #f9f9f9; padding: 10px; }
+	#content p {  }
+	/* Portfolio Styles */
+	p#portfolio {  }
+		p#portfolio div { text-align: center; margin-bottom: 15px; background-color: #DBDBDB;  }
+		a.fancybox { width: auto; height: auto; }
+		a.fancybox:hover img { background-color: #99FF99; }
+		a.fancybox img { border: 1px solid #ddd; padding: 10px; margin-right: 20px; z-index: 105;}
+		.portfolio_msg { display : none; }
+	
+	/* About Styles */
+	p#about div { font-size: 14px; padding: 5 0 10 0; margin: 0; }
+
+	/* Resume Styles */
+		.resume_section_title { font-size: 18px; font-weight: bolder; font-variant: small-caps; color: #777777; border-bottom: 1px #777777 solid; }
+
+		.resume_job_company { clear: both; float: left; display: block; font-size: 16px; font-weight: bolder; padding: 5 0 0 25; }
+		.resume_job_city { float: right; display: inline-block; font-size: 14px; font-weight: bolder; padding: 5 0 0 25; }
+		.resume_job_role_name { clear: both; display: block; color: #FF0000; font-size: 14px; font-weight: bolder; padding: 0 25 0 25; }
+		.resume_job_role_duration { float: left; display: inline-block; font-size: 14px; color: #0000FF; padding: 0 0 0 25; }
+		.resume_job_role_summary { clear: both; float: left; width: 45%; min-width: 300px; font-size: 14px; padding: 5 0 10 25; }
+	p#resume div { padding-top: 15px; }
+		p#resume ul { min-width: 300px; padding: 0 0 0 25; margin: 0 20 10 0; list-style-type: circle; }
+		.resume_job_role_list_item { float: right; width: 45%; padding: 0; }
+
+		.resume_college_name { clear: both; float: left; display: block; font-size: 16px; font-weight: bolder; padding: 5 0 0 25; }
+		.resume_college_city { float: left; display: inline-block; font-size: 14px; font-weight: bolder; padding: 5 0 0 25; }
+		.resume_college_degree_type { clear: both; display: block; color: #FF0000; font-size: 14px; font-weight: bolder; padding: 0 25 0 25; }
+		.resume_college_degree_focus { clear: both; display: block; color: #FF0000; font-size: 12px; font-weight: normal; font-style: italic; padding: 0 25 0 25; }
+		.resume_college_degree_year { float: left; display: inline-block; font-size: 14px; color: #0000FF; padding: 0 0 10 25; }
+
+		.resume_skill_type_name { clear: both; display: block; color: #FF0000; font-size: 14px; font-weight: bolder; padding: 0 25 0 25; }
+		.resume_skill { width: 18%; min-width: 110px; float: left; display: inline-block; font-size: 14px; padding: 0 0 5 25; }
+
+		.resume_promotion_name { clear: both; display: block; color: #FF0000; font-size: 14px; font-weight: bolder; padding: 0 25 0 25; }
+		.resume_promotion_duration { float: left; display: inline-block; font-size: 14px; color: #0000FF; padding: 0 0 0 25; }
+		.resume_promotion_summary { clear: both; float: left; font-size: 14px; padding: 5 0 10 25; }
+#home_img { position: relative; width:620px; top: 230px; height: auto; display: block; }
+
+#social { float:right; width: 35px; margin-right: -35px; z-index: 99; }
+#social span { position: fixed; background: #FF0000; width: 12px; height: 500px; top: 50px; right: -20; padding-top: 5px; display: block; }
+#social span > p.copyline { font-size: 13px; color: #FFFFFF; margin: 320px 0px 0px 0px; white-space: nowrap; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+#social a:hover img { -moz-box-shadow: 2px 5px 10px #fff; -webkit-box-shadow: 2px 5px 10px #fff; box-shadow: 2px 5px 10px #fff; }
+span.child a:link { color: yellow !important; text-decoration: none !important; }
+span.child a:active { color: yellow !important; text-decoration: none !important; }
+span.child a:visited { color: yellow !important; text-decoration: none !important; }
+
+#fatcow { width: 100%; height: 100%; }
+.green_img { position: absolute; bottom: 5px; right: 0px; border: 0; }
+.affiliate_img { position: absolute; bottom: 10px; right: 120px; border: 0; }
+

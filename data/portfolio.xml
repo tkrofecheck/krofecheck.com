@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<portfolio>
+	<videoIcon>/images/video.png</videoIcon>
+	<project display="true">
+		<name>Personal Projects</name>
+		<folder>personal-wedding</folder>
+		<step>
+			<image>1_personal_wedding.png</image>
+			<text>Wedding website designed for family and friends. - visit at http://wedding.krofecheck.com</text>
+		</step>
+	</project>
+<project display="true">
+		<name>Time Inc - iPad</name>
+		<folder>timeinc-ipad</folder>
+		<step>
+			<image>1_time_library.png</image>
+			<text>Library consisting of issues to be purchased, downloaded, and viewed. The top horizontal section is a web viewer used for cross-selling to other brands and apps as well as advertising subscriptions, free samples, and special offers.</text>
+		</step>
+		<step>
+			<image>2_people_storefront.png</image>
+			<text>The storefront for People is unique in that it is the only brand using this design. The storefront lists the most current issue along with recent back issues to be purchased and downloaded.</text>
+		</step>
+		<step>
+			<image>3_people_regform.png</image>
+			<text>This is a registration form used to create a digital account. A digital account allows you to sign-in to different apps (iPad / Kindle Fire) to access purchased issues and subscriptions.</text>
+		</step>
+		<step>
+			<image>4_people_myaccount.png</image>
+			<text>The my account section allows the user to navigation through account management from 'forgot password' to 'terms of service' and 'privacy policies'.</text>
+		</step>
+		<step>
+			<image>5_ew_storefront.png</image>
+			<text>Similar to the People storefront, this is the shared designed across other Time Inc brands on iPad.</text>
+		</step>
+		<step>
+			<image>6_si_storefront.png</image>
+			<text>Similar to the People storefront, this is the shared designed across other Time Inc brands on iPad.</text>
+		</step>
+		<step>
+			<image>7_si_preview.png</image>
+			<text>Tapping a cover within the store that has not been downloaded, will open this preview. The preview provides a small example of what can be found within the issue, along with the option to purchase or download the issue.</text>
+		</step>
+	</project>
+<project display="true">
+		<name>Time Inc - Kindle Fire</name>
+		<folder>timeinc-kindle</folder>
+		<step>
+			<image>1_people_storefront.png</image>
+			<text></text>
+		</step>
+		<step>
+			<image>2_people_storefront2.png</image>
+			<text></text>
+		</step>
+		<step>
+			<image>3_people_signin.png</image>
+			<text></text>
+		</step>
+	</project>
+<project display="true">
+		<name>New York Post - iPad Ad Counts</name>
+		<folder>adcounts</folder>
+		<step>
+			<image>1_home.png</image>
+			<text>Used by Ad Operations, this tool allows users to setup ad placements for different issues within the iPad app.</text>
+		</step>
+		<step>
+			<image>2_select_issue.png</image>
+			<text>A dropdown list makes it easy for Ad Operations to find the issue they need to work in, or if they need to refer to a past "archived" issue.</text>
+		</step>
+		<step>
+			<image>3_issue_start.png</image>
+			<text>Selecting the current or a future issue allows Ad Operations to start setting up new ads.</text>
+		</step>
+		<step>
+			<image>4_click_save_and_see_json-1.png</image>
+			<text>After creating ads, clicking "Save" will allow you to see the JSON object (as a string).</text>
+		</step>
+		<step>
+			<image>5_click_save_and_see_json-2.png</image>
+			<text>Here is a JSON object (as a string) that one could use for troubleshooting if there are any problems in the database.</text>
+		</step>
+		<step>
+			<image>6_pull_saved_ad_info.png</image>
+			<text>Here is an inspection on an XHR to pull in an archived issue, producing one large JSON object with more details.</text>
+		</step>
+		<video>
+			<title>Ad Counts Demonstration.</title>
+			<src>adcounts.swf</src>
+		</video>
+	</project>
+	<project display="true">
+		<name>New York Post - Daily e-Newsletter</name>
+		<folder>newsletter</folder>
+		<step>
+			<image>1_newsletter.png</image>
+			<text>eNewsletter (section 1/4) - optimized for iPhone using media query</text>
+		</step>
+		<step>
+			<image>2_newsletter.png</image>
+			<text>eNewsletter (section 2/4) - optimized for iPhone using media query</text>
+		</step>
+		<step>
+			<image>3_newsletter.png</image>
+			<text>eNewsletter (section 3/4) - optimized for iPhone using media query</text>
+		</step>
+		<step>
+			<image>4_newsletter.png</image>
+			<text>eNewsletter (section 4/4) - optimized for iPhone using media query</text>
+		</step>
+		<feed>
+			<title>Newsletter JSON Feed (6/7/12)</title>
+			<description>Daily Newsletter is setup as handsfree automation populating content from this feed.</description>
+			<url>data/newsletter-feed.json</url>
+		</feed>
+	</project>
+	<project display="true">
+		<name>New York Post - Email Management</name>
+		<folder>nyp-email</folder>
+		<step>
+			<image>signup.jpg</image>
+			<text>Signup Page - Users may subscribe to receive New York Post emails. http://nypost.com/newsletter</text>
+		</step>
+		<step>
+			<image>emailpref.jpg</image>
+			<text>Email Preferences - Subscribers may modify what email they receive. </text>
+		</step>
+		<step>
+			<image>move_legacy.jpg</image>
+			<text>User Management - Users in the legacy system must use this API to move from legacy into the new list accepting a new privacy policy. This allows the New York Post to control lists more efficiently. </text>
+		</step>
+		<step>
+			<image>email_signup_widget.jpg</image>
+			<text>Email Signup Widget - API connection to SailThru, signs up to multiple lists, assigns multiple variables per user and sends a welcome email.</text>
+		</step>
+	</project>
+	<project display="true">
+		<name>New York Post - websites/projects</name>
+		<folder>newyorkpost</folder>
+		<step>
+			<image>newyorkpost.jpg</image>
+			<text>New York Post - visit at http://www.nypost.com</text>
+		</step>
+		<step>
+			<image>pagesixmag.jpg</image>
+			<text>Page Six Magazine - visit at http://www.nypost.com/pagesixmag</text>
+		</step>
+		<step>
+			<image>alexa.jpg</image>
+			<text>Alexa - visit at http://www.nypost.com/alexa</text>
+		</step>
+		<step>
+			<image>classroomextra.jpg</image>
+			<text>Classroom Extra - visit at http://www.nypost.com/classroomextra</text>
+		</step>
+	</project>
+	<project display="true">
+		<name>Dynamic Newsletters / Microsite - Wyndham Worldwide Hotels</name>
+		<folder>wyndham</folder>
+		<step>
+			<image>email_hojo.jpg</image>
+			<text>Howard Johnson&amp;reg; - Utilizing Classic ASP, VBscript, JavaScript and HTML</text>
+		</step>
+		<step>
+			<image>email_wingate.jpg</image>
+			<text>Wingate by Wyndham&amp;reg; - Utilizing Classic ASP, VBscript, JavaScript and HTML</text>
+		</step>
+		<step>
+			<image>page_ramada.jpg</image>
+			<text>Ramada&amp;reg; Worldwide - Utilizing Ajax, Classic ASP, VBscript, JavaScript and HTML</text>
+		</step>
+	</project>
+	<project display="true">
+		<name>Custom Microsites</name>
+		<folder>microsites</folder>
+		<step>
+			<image>baa.jpg</image>
+			<text>BAA Airports Limited - Utilizing Classic ASP, VBscript and HTML</text>
+		</step>
+		<step>
+			<image>comcast.jpg</image>
+			<text>Comcast&amp;reg; - Utilizing Classic ASP, VBscript, Flash, JavaScript and HTML</text>
+		</step>
+		<step>
+			<image>fedex.jpg</image>
+			<text>FedEx&amp;reg; - Utilizing Classic ASP, VBscript, JavaScript, CSS and HTML</text>
+		</step>
+		<step>
+			<image>royal_caribbean.jpg</image>
+			<text>Royal Caribbean&amp;reg; - Utilizing Classic ASP, VBscript, JavaScript and DHTML</text>
+		</step>
+		<step>
+			<image>sprint.jpg</image>
+			<text>Sprint&amp;reg; - Utilizing Classic ASP, VBscript, JQuery, JavaScript and HTML</text>
+		</step>
+		<step>
+			<image>upromise.jpg</image>
+			<text>Upromise&amp;reg; - Utilizing Classic ASP, VBscript, JavaScript and HTML</text>
+		</step>
+	</project>
+</portfolio>

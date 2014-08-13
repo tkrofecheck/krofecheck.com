@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<info>
+	<green_image>http://www.fatcow.com/green-certified/hosting-badge-3.png</green_image>
+	<green_url>http://www.fatcow.com/green-certified/timkrofecheck.com</green_url>
+	<green_onclick>MyWindow=window.open('http://www.fatcow.com/green-certified/timkrofecheck.com','greenCertified','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=550,height=700,left=50,top=50'); return false;</green_onclick>
+	<affiliate_image>http://www.fatcow.com/affiliate/banners/425</affiliate_image>
+	<affiliate_url>http://www.fatcow.com/join/index.bml?AffID=693349&amp;LinkName=FatCow</affiliate_url>
+</info>

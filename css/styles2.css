@@ -1,0 +1,140 @@
+/* Author: Tim Krofecheck */
+
+/* Tag Styles */
+* { margin: 0px 0; padding: 0px 0; }
+html,body { margin:0px 0; padding:0px 0; height: 100%; /* needed for container min-height */ background: gray; font-family:arial,sans-serif; font-size:small; color:#666; }
+body { background-image: url('../images/nycts.jpg'); background-repeat: no-repeat; background-size: cover; min-height: 800px; }
+br { padding: 0px; margin: 0px; }
+
+/* Custom Styles */
+h1 { font: 1.5em georgia,serif; margin: 0.5em 0; }
+h2 { font: 1.25em georgia,serif; margin: 0 0 0.5em; }
+	h1, h2, a { font: 2em 'Open Sans', sans-serif; }
+p { line-height:1.5; margin:0 0 1em; }
+div#container {
+	position:relative; /* needed for footer positioning*/
+	top: 5%;
+	margin:0px auto; /* center, not in IE5 */
+	padding: 0px 0;
+	width:50%;
+	background:transparent;
+	border-top:6px double gray;
+	overflow: auto; overflow-x: hidden;
+	
+	height:auto !important; /* real browsers */
+	height:60%; /* IE6: treaded as min-height*/
+
+	min-width: 320px;
+	min-height: 800px; /* real browsers */
+	
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+}
+
+div#header {
+	padding:1em;
+	background:#ddd;
+	border-bottom:2px solid gray;
+	-moz-border-radius-topright: 35px;
+	-moz-border-radius-topleft: 35px;
+	border-top-right-radius: 35px;
+	border-top-left-radius: 35px;
+	text-align: center;
+}
+	#header #nav { position: absolute bottom right; width: 100%; height:18px; }
+		#header #nav ul { float: right; list-style-type: none; }
+		#header #nav ul > li { float: left; font-size: 20px; line-height: 20px; cursor: hand; cursor: pointer; font-weight: bolder; }
+		#header #nav ul > li > span.smcaps { font-variant: small-caps; font-weight: normal !important; }
+		#header #nav li:hover { color: #990000; font-weight: bolder; }
+		
+		#header #nav li.navOn:hover { color: #FFFFFF; }
+		#header #nav li.navOn { color: #FFFFFF; }
+
+#scrollbox{  
+    width: 105%;
+	height: 600px;
+    overflow: auto; overflow-x: hidden;
+	background:#f0f0f0;
+}
+
+div#content {
+	padding:1em 1em 5em; /* bottom padding for footer */
+}
+	#scrollBtn_up { background: url('../images/upArrow.png'); top: 150px; }
+	#scrollBtn_down { background: url('../images/downArrow.png'); top: 650px; }
+	.scrollBtn { position: absolute; right: 5px; width: 30px !important; height: 30px !important; z-index: 99; -moz-border-radius: 10px; border-radius: 10px; }
+	
+	div#content p {
+		text-align:justify;
+		padding: 0px 60px 10px 10px;
+	}
+	
+	/* Portfolio Styles */
+	p#portfolio {  }
+		p#portfolio div { text-align: center; margin-bottom: 15px; background-color: #DBDBDB;  }
+		a.fancybox { width: auto; height: auto; }
+		a.fancybox:hover img { background-color: #99FF99; }
+		a.fancybox img { border: 1px solid #ddd; padding: 10px; margin-right: 20px; z-index: 105;}
+		.portfolio_msg { display : none; }
+	
+	/* About Styles */
+	p#about div { font-size: 14px; padding: 5px 0px 10px 0px; margin: 0px 0; }
+		.resume_about_text { float: left; font-size: 16px; color: #777777; padding-top: 20px; }
+		
+	/* Resume Styles */
+		.resume_section_title { font-size: 18px; font-weight: bolder; font-variant: small-caps; color: #777777; border-bottom: 1px #777777 solid; }
+
+		.resume_job_company { clear: both; float: left; display: block; font-size: 16px; font-weight: bolder; padding: 0px; }
+		.resume_job_city { float: right; display: inline-block; font-size: 14px; font-weight: bolder; padding: 0px; }
+		.resume_job_role_name { clear: both; float: left; display: block; color: #FF0000; font-size: 14px; font-weight: bolder; padding: 0px; }
+		.resume_job_role_duration { float: right; display: inline-block; font-size: 14px; color: #0000FF; padding: 0px; }
+	p#resume div { padding-top: 15px; }
+		p#resume ul { position: relative; display: block; list-style-type: circle; margin-left: 50px; padding: 10px 0px 30px 0px;}
+		p#resume li { padding: 0px 0px 10px 0px; }
+		.resume_job_role_summary { float: left; width: 100%; font-size: 14px; padding: 0px; }
+		.resume_job_role_list_item { clear: left; float: left; width: 90%; }
+
+		.resume_college_name { clear: both; float: left; display: block; font-size: 16px; font-weight: bolder; padding: 0px; }
+		.resume_college_city { float: right; display: inline-block; font-size: 14px; font-weight: bolder; padding: 0px; }
+		.resume_college_degree_type { clear: both; float: left; display: block; color: #FF0000; font-size: 14px; font-weight: bolder; padding: 0px; }
+		.resume_college_degree_focus { clear: both; float: left; display: block; color: #FF0000; font-size: 12px; font-weight: normal; font-style: italic; padding: 0px; }
+		.resume_college_degree_year { float: right; display: inline-block; font-size: 14px; color: #0000FF; padding: 0px; }
+
+		.resume_skill_type_name { clear: both; display: block; color: #FF0000; font-size: 14px; font-weight: bolder;}
+		.resume_skill { width: 49%; float: both; display: inline-block; font-size: 14px; padding: 0% 0% 0% 1%; }
+
+		.resume_promotion_name { clear: both; float: left; display: block; color: #FF0000; font-size: 14px; font-weight: bolder; padding: 0px; }
+		.resume_promotion_duration { float: right; display: inline-block; font-size: 14px; color: #0000FF; padding: 0px; }
+		.resume_promotion_summary { clear: both; float: left; font-size: 14px; padding-bottom: 30px; }
+
+div#footer {
+	position:absolute;
+	width:100%;
+	height: auto;
+	/*bottom:0; /* stick to bottom */
+	background:#ddd;
+	border-top:2px solid gray;
+	border-bottom:6px double gray;
+	-moz-border-radius-bottomright: 35px;
+	-moz-border-radius-bottomleft: 35px;
+	border-bottom-right-radius: 35px;
+	border-bottom-left-radius: 35px;
+}
+	div#footer p {
+		padding:1em;
+		margin: 0;
+		text-align: center;
+	}
+	
+	#social { text-align: center; }
+	#social img { margin-left: 5px; }
+	span.child a { font-size: 13px; font-family: Helvetica, sans-serif; font-weight: bolder; }
+	span.child a:link { color: yellow !important; text-decoration: none !important; }
+	span.child a:active { color: yellow !important; text-decoration: none !important; }
+	span.child a:visited { color: yellow !important; text-decoration: none !important; }
+
+	#fatcow { width: 100%; height: 100%; }
+	.green_img { position: absolute; bottom: 5px; right: 0px; border: 0; }
+	.affiliate_img { position: absolute; bottom: 10px; right: 120px; border: 0; }
+	
+#inline1 { width:480px; height:auto; }

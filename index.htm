@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KrofechecKreations</title>
+		<meta charset="UTF-8">
+		<meta name="author" CONTENT="Tim Krofecheck">
+		<meta name="copyright" CONTENT="&copy; 2014 KrofechecKreations">
+		<meta name="description" content="Experienced Web Developer Portfolio and Resume">
+		<meta name="keywords" content="Krofecheck, New York Post, Web, Developer, JSON, AJAX, CSS, jQuery, Javascript, HTML, XML, PHP"> 
+		<meta name="googlebot" CONTENT="noarchive">
+		<meta http-equiv="cache-control" CONTENT="no-store">
+		<meta http-equiv="expires" CONTENT="Thu, 06 Jun 2013 11:59:59 GMT">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+                <meta name="sitelock-site-verification" content="6081" />
+		
+		<!-- Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800' rel='stylesheet' type='text/css'>
+		
+		<!-- Google Analytics -->
+		<script type="text/javascript" src="js/gAnalytics.js" ></script>
+		
+		<!-- JQuery 1.7 -->
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+
+		<!-- Mousewheel plugin -->
+		<script type="text/javascript" src="js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+		
+		<!-- Fancybox -->
+		<link rel="stylesheet" type="text/css" href="js/fancybox/source/jquery.fancybox.css?v=2.0.5" />
+		<script type="text/javascript" src="js/fancybox/source/jquery.fancybox.js?v=2.0.5"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".fancybox").fancybox({
+					openEffect	: 'elastic',
+					closeEffect	: 'elastic',
+					aspectRatio : true,
+					fitToView : true,
+					mouseWheel : true
+				});
+				
+				$(".play").fancybox({
+					'padding'		: 0,
+					'autoScale'		: true,
+					'transitionIn'	: 'none',
+					'transitionOut'	: 'none',
+					'title'			: this.alt,
+					'width'			: 900,
+					'height'		: 900,
+					'href'			: this.src,
+					'type'			: 'swf',
+					'swf'			: {
+						'wmode'		: 'transparent',
+						'allowfullscreen'	: 'true'
+					}
+				});
+				
+				$(".feed").fancybox({
+					'titlePosition' : 'inside',
+					'transitionIn' : 'none',
+					'transitionOut' : 'none'
+				});
+
+			});
+		</script>
+		
+		<!-- JavaScript -->
+		<script type="text/javascript" src="js/scripts2.js?v=20140212"></script>
+		
+		<!-- AutoLink URLs -->
+		<script type="text/javascript" src="js/jquery.autolink.js"></script>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/styles2.css" media="screen" />
+		
+		
+		<!--[if IE]>
+			<style type="text/css">
+				.portfolio_msg { display : block !important; }
+			</style>
+		<!-- <![endif]-->
+		
+		<style>
+			@media
+				only screen and (-webkit-min-device-pixel-ratio : 1.5) and (min-device-width: 320px) and (max-device-width: 480px),
+				only screen and (-webkit-min-device-pixel-ratio : 1.5) and (min-device-width: 480px) and (max-device-width: 800px),
+				only screen and (-webkit-min-device-pixel-ratio : 1.5) and (min-device-width: 480px) and (max-device-width: 854px),
+				only screen and (-webkit-min-device-pixel-ratio : 2),
+				only screen and (min-device-pixel-ratio : 2) {
+					body{
+						background: url('../images/mobile-texture.gif') !important;
+						min-height: 640px !important;
+					}
+					
+					div#container {
+						top: 0px !important;
+
+						min-width: 320px !important;
+						min-height: 640px !important; /* real browsers */
+						
+						margin: 0px !important;
+						padding: 0px !important;
+					}
+					
+					div#content {
+						height: 100px !important;
+						max-height: 250px;
+						margin: 0px !important;
+					}
+					
+					div#content p {
+						text-align:justify;
+						padding: 0px 60px 10px 10px;
+					}
+					
+					#scrollbox{  
+						width: 110% !important;
+						height: 250px !important;
+						padding: 0px !important;
+						margin: 0px !important;
+					}
+					
+					#scrollBtn_up {
+						display: block !important;
+						top: 150px;
+					}
+					
+					#scrollBtn_down {
+						display: block !important;
+						top: 250px;
+					}
+				}
+				
+				@media
+					only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: portrait){
+						#scrollBtn_up {
+							display: block !important;
+							top: 150px;
+						}
+						
+						#scrollBtn_down {
+							display: block !important;
+							top: 550px;
+						}
+					}
+					
+				@media
+					only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: landscape){
+						body{
+							min-height: 640px !important;
+						}
+						div#container {
+							position:relative; /* needed for footer positioning*/
+							top: 2%;
+							margin: 0px auto; /* center, not in IE5 */
+							padding: 0px 0;
+							width: 50%;
+							background:transparent;
+							border-top:6px double gray;
+							overflow: auto; overflow-x: hidden;
+							
+							height:auto !important; /* real browsers */
+							height:60%; /* IE6: treaded as min-height*/
+
+							min-width: 320px;
+							min-height: 640px; /* real browsers */
+							
+							-moz-border-radius: 35px;
+							border-radius: 35px;
+						}
+						
+						div#content {
+							height: 250px !important;
+							margin: 0px !important;
+						}
+						
+						div#content p {
+							text-align:justify;
+							padding: 0px 80px 10px 10px;
+						}
+						
+						#scrollbox{  
+							width: 110% !important;
+							height: 440px !important;
+							padding: 0px !important;
+							margin: 0px !important;
+						}
+					
+						#scrollBtn_up {
+							display: block !important;
+							top: 150px;
+						}
+						
+						#scrollBtn_down {
+							display: block !important;
+							top: 300px;
+						}
+					}
+		</style>
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="header">
+				<div id="nav">
+					<ul>
+						<li name="portfolio">P<span class="smcaps">ortfolio</span></li>
+						<li name="about">A<span class="smcaps">bout</span></li>
+						<li name="resume">R<span class="smcaps">esume</span></li>
+					</ul>
+				</div>
+				
+				<h1>
+					<span class="logoSMALL">KrofechecKreations</span>
+				</h1>
+			</div>
+			
+			<div id="scrollbox">
+				<div id="content">
+					<div id="scrollBtn_up" class="scrollBtn"></div>
+					<p id="portfolio" class="text"><span class="portfolio_msg">Please use a different browser if you experience any difficulties viewing the portfolio in Internet Explorer. Recommendations: <a href="http://www.mozilla.org/en-US/firefox/fx/">Firefox</a> | <a href="https://www.google.com/chrome?&brand=CHMB&utm_campaign=en&utm_source=en-ha-na-us-sk&utm_medium=ha">Chrome</a> | <a href="http://www.apple.com/safari/">Safari</a></span></p>
+					<p id="about" class="text"></p>
+					<p id="resume" class="text"></p>
+					<div id="scrollBtn_down" class="scrollBtn"></div>
+				</div>
+			</div>
+			
+			<div id="footer">
+			</div>
+		</div>
+		
+		<div style="display: none;">
+			<div id="inline1" style="">
+			</div>
+		</div>
+		
+	</body>
+</html>
