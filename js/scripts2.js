@@ -77,7 +77,7 @@ $(document).ready(function() {
 				if ($(this).attr('display') == 'true') {				
 					var projectName = $(this).find('name').text();
 					var projectFolder = $(this).find('folder').text();
-					var projectURL = "http://www." + document.domain + "/portfolio/" + projectFolder + "/";
+					var projectURL = "http://" + document.domain + "/portfolio/" + projectFolder + "/";
 					
 					var sectionId = projectFolder.toLowerCase();
 					sectionId = sectionId.replace(' ', '');
@@ -204,7 +204,7 @@ $(document).ready(function() {
 				var socialIcon = $(this).find('icon').text();
 				var socialUrl = $(this).find('url').text();
 				
-				var socialIconUrl = "http://www." + document.domain + socialFolder + "/" + socialIcon;
+				var socialIconUrl = "http://" + document.domain + socialFolder + "/" + socialIcon;
 				
 				var anchor = $("<a></a>");
 				$(anchor).attr({ href : socialUrl });
