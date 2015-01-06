@@ -7,11 +7,26 @@
 	<section display="true">
 		<title>Professional Experience</title>
 		<job>
+			<company>Time Inc.</company>
+			<city>New York, NY</city>
+			<role>
+				<name>Front-End Developer / Consumer Marketing + Revenue</name>
+				<duration>2012 - Present</duration>
+				<summary>Lead Frontend developer in Consumer Marketing for iPad and Kindle Fire. (JavaScript, HTML5, CSS3, SASS, JSON, XML, jQuery, Backbone, Handlebars, Mac OS X command line, Git, CVS via Eclipse) </summary>
+				<item>App Storefront development on 20+ mobile apps. (People Magazine, TIME Magazine, etc.)</item>
+				<item>Transitioned all 20+ brands from a Sencha Touch (Woodwing) app to Backbone (Adobe DPS R29)</item>
+				<item>Lead/Solo developer for Adobe DPS R31 custom library within Time For Kids Classroom Assessment app (to be released in Q3/Q4 2014).</item>
+				<item>Serve as a reference to marketing developers for building responsive webpages and ads.</item>
+				<item>Developed a responsive mini magazine reader for marketers.</item>
+				<item>A/B testing of library banners, subscription copy, first time visitor dialogs, and other elements using local storage and cookies.</item>
+			</role>
+		</job>
+		<job>
 			<company>New York Post</company>
 			<city>New York, NY</city>
 			<role>
 				<name>Web Developer / Online Production</name>
-				<duration>2010 - Present</duration>
+				<duration>2010 - 2012</duration>
 				<summary>Acting project manager for changes to both iPhone and Android mobile apps. Support the NYPOST.com and m.NYPOST.com websites. Built internal webtools for ad placement support between all online and mobile technologies. (JavaScript, PHP, JQuery, JSON, Joose, HTML, XML, CSS, PostgreSQL and some JSP). Solely produced feeds, templates, lists and automated campaigns for sending email via SailThru (ESP). </summary>
 				<item>Produced feeds for iPhone and Android mobile applications.</item>
 				<item>Developed a secure web-based layout tool for New York Post iPad issues.</item>
