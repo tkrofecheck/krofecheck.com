@@ -104,14 +104,14 @@
 		</college>
 	</section>
 	<section display="true">
-		<title>Core Qualifications</title>
+		<title>Skills</title>
 		<type>
 			<name> </name>
 			<skill>Adobe DPS APIs (JavaScript SDKs)</skill>
 			<skill>Ajax</skill>
 			<skill>Backbone.js</skill>
 			<skill>Charles</skill>
-			<skill>Chartbeat / Newsbeat</skill>
+			<skill>Chartbeat</skill>
 			<skill>CSS3</skill>
 			<skill>Dropbox</skill>
 			<skill>Google Analytics</skill>
@@ -129,7 +129,7 @@
 			<skill>Photoshop</skill>
 			<skill>PHP5</skill>
 			<skill>PostgreSQL</skill>
-			<skill>SASS / SCSS</skill>
+			<skill>SASS</skill>
 			<skill>SailThru (ESP)</skill>
 			<skill>SiteCatalyst</skill>
 			<skill>Underscore.js</skill>
