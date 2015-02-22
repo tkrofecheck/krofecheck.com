@@ -356,7 +356,7 @@ $(document).ready(function() {
 								break;
 								
 							case 'skills' :
-								$(this).find('type').each(function(){
+								//$(this).find('type').each(function(){
 									var span1 = $("<span></span>");
 									typeName = $(this).find('name').text();
 									
@@ -371,7 +371,7 @@ $(document).ready(function() {
 										$(span[i]).append(typeName).addClass('resume_skill');
 										$(sectionDiv).append(span[i]);
 									});
-								});
+								//});
 								break;
 								
 							case 'promotions' :
