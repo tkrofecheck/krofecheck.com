@@ -106,7 +106,7 @@
 	<section display="true">
 		<title>Core Qualifications</title>
 		<type>
-			<name></name>
+			<name>&nbsp;</name>
 			<skill>Adobe DPS APIs (JavaScript SDKs)</skill>
 			<skill>Ajax</skill>
 			<skill>Backbone.js</skill>
@@ -141,14 +141,13 @@
 		<title>Additional Information</title>
 		<job>
 			<name>Github</name>
-			<duration></duration>
+			<duration>&nbsp;</duration>
 			<summary><a href="http://www.github.com/tkrofecheck">http://www.github.com/tkrofecheck</a></summary>
 		</job>
 		<job>
 			<name>LinkedIn</name>
-			<duration></duration>
-			<summary><a href="http://www.linkedin.com/in/tkrofecheck">http://www.linkedin.com/in/tkrofecheck</a>
-</summary>
+			<duration>&nbsp;</duration>
+			<summary><a href="http://www.linkedin.com/in/tkrofecheck">http://www.linkedin.com/in/tkrofecheck</a></summary>
 		</job>
 	</section>
 	<section display="false">
