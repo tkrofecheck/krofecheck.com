@@ -2,7 +2,7 @@
 <resume>
 	<section display="true">
 		<title>Summary</title>
-		<text>Over 8 years of progressive, comprehensive experience as an innovative web developing professional. A distinguished worker acknowledged for positive rapport among co-workers and clients. Detail oriented, with a proven ability to successfully contribute to company objectives. Well balanced workload of projects and tight deadlines in a fast paced environment. Aspiring to enhance skill set from cutting-edge technologies utilizing AJAX, jQuery, DOM manipulation, and RESTful environments.</text>
+		<text>Over 10 years of progressive, comprehensive experience as an innovative web developing professional. A distinguished worker acknowledged for positive rapport among co-workers and clients. Detail oriented, with a proven ability to successfully contribute to company objectives. Well balanced workload of projects and tight deadlines in a fast paced environment. Aspiring to enhance skill set from cutting-edge technologies utilizing HTML5, CSS3, and JavaScript.</text>
 	</section>
 	<section display="true">
 		<title>Professional Experience</title>
@@ -12,13 +12,21 @@
 			<role>
 				<name>Front-End Developer / Consumer Marketing + Revenue</name>
 				<duration>2012 - Present</duration>
-				<summary>Lead Frontend developer in Consumer Marketing for iPad and Kindle Fire. (JavaScript, HTML5, CSS3, SASS, JSON, XML, jQuery, Backbone, Handlebars, Mac OS X command line, Git, CVS via Eclipse) </summary>
-				<item>App Storefront development on 20+ mobile apps. (People Magazine, TIME Magazine, etc.)</item>
-				<item>Transitioned all 20+ brands from a Sencha Touch (Woodwing) app to Backbone (Adobe DPS R29)</item>
-				<item>Lead/Solo developer for Adobe DPS R31 custom library within Time For Kids Classroom Assessment app (to be released in Q3/Q4 2014).</item>
-				<item>Serve as a reference to marketing developers for building responsive webpages and ads.</item>
-				<item>Developed a responsive mini magazine reader for marketers.</item>
-				<item>A/B testing of library banners, subscription copy, first time visitor dialogs, and other elements using local storage and cookies.</item>
+				<summary></summary>
+				<item>Coordinated with QA testers for end-to-end unit testing and post-production testing. </item>
+				<item>Supervised the work of 2 other front-end developers. </item>
+				<item>Updated, modified and expanded existing iOS web applications. </item>
+				<item>Trained 3 equipment operators, data entry and user personnel. </item>
+				<item>Developed web applications for Apple iPad/iPhone and Kindle Fire platforms. </item>
+				<item>Developed Time For Kids Classroom application with student / teacher web views and classroom assessments. </item>
+				<item>Developed a responsive jQuery mini magazine web-based reader for marketing to replace a minimally supported Adobe Flash reader. </item>
+				<item>Provided technical and development support to marketing JavaScript advertisements used across all Time Inc. brands. </item>
+				<item>Implemented a custom filter to determine special issues from weekly / monthly issues not native to the Adobe DPS APIs. </item>
+				<item>Produced reusable Omniture code to deliver descriptive user actions and page views for readable and effective reporting in SiteCatalyst. </item>
+				<item>Managed and perfected special messaging to end-users during the release of iOS8 to keep app ratings substantial and customer service complaints minimal. </item>
+				<item>Implemented A/B testing, manipulating DOM elements using local storage. </item>
+				<item>Setup an automated posting script to pass data to the back-end for used for delivering audience segmented push notifications called ECHO. </item>
+				<item>Transitioned Woodwing applications on iPad into a highly configurable Backbone application utilizing the latest Adobe DPS JavaScript APIs. </item>
 			</role>
 		</job>
 		<job>
@@ -27,31 +35,32 @@
 			<role>
 				<name>Web Developer / Online Production</name>
 				<duration>2010 - 2012</duration>
-				<summary>Acting project manager for changes to both iPhone and Android mobile apps. Support the NYPOST.com and m.NYPOST.com websites. Built internal webtools for ad placement support between all online and mobile technologies. (JavaScript, PHP, JQuery, JSON, Joose, HTML, XML, CSS, PostgreSQL and some JSP). Solely produced feeds, templates, lists and automated campaigns for sending email via SailThru (ESP). </summary>
-				<item>Produced feeds for iPhone and Android mobile applications.</item>
-				<item>Developed a secure web-based layout tool for New York Post iPad issues.</item>
-				<item>Integrated various analytics tools (incl. Google Analytics and Chartbeat/Newsbeat) across NYPOST.com, Alexa, and Page Six Magazine websites</item>
-				<item>Implemented a shared email template to be viewed on PC &amp; Mac computers and iPhone &amp; Android mobile devices.</item>
+				<summary></summary>
+				<item>Planned and executed changes to both iPhone and Android mobile applications. </item>
+				<item>Troubleshooted and resolved web application issues escalated from customer support and other departments with a 100% success rate. </item>
+				<item>Built internal web tools for ad placement within mobile applications. </item>
+				<item>Created HTML email templates and newsletters for e-mail marketing campaigns. </item>
+				<item>Executed and monitored standards for user interfaces, page design and graphics development. </item>
+				<item>Compiled statistical information for special reports. (Omniture / Chartbeat / Newsbeat) </item>
+				<item>Designed templates for the CMS to promote SEO and conversion best practices and the efficient use of HTML tags. </item>
+				<item>Managed all social media programs, including Internet forums, blogs, social networking applications and message boards. </item>
 			</role>
 		</job>
 		<job>
 			<company>Acxiom Digital</company>
 			<city>New York, NY</city>
 			<role>
-				<name>Content Specialist Lead</name>
+				<name>Content Specialist Lead / Solutions Developer</name>
 				<duration>2005 - 2010</duration>
-				<summary>Customized web-based e-mail. Designed pages for client start-ups and multi-national corporations. Proven ability to hand code and use HTML for web site development. Experienced in the creation and maintenance of web pages. Experienced in analyzing, designing, developing, and implementing, web-based applications. Accomplished in optimizing graphics and web-safe colors for fast download time.</summary>
-				<item>Produced high quality work with recognition of 12+ months error-free and close attention to detail</item>
-				<item>Developed high-efficient JavaScript to pull dynamic content into marketing emails for clients such as Wyndham Hotels, BMG, Royal Caribbean, IBM, Conde Nast, Eli Lilly, Estee Lauder, and CVS</item>
-				<item>Implemented Omniture javascript code within various dynamic emails and a search API for revenue tracking on Wyndham Hotels</item>
-			</role>
-			<role>
-				<name>Program Engineer</name>
-				<duration>2007 - 2009</duration>
-				<summary>Collaborated with producers and graphic designers in the development of ASP and Oracle applications for client websites. Briefed team members on expectations, timeline and project progress. Devised and regularly revamped website presence as both a testing ground for new ideas in navigation, style sheets, loading speeds and multi-browser capabilities. Developed full life-cycle website applications from designing database schema to implementing front- and back-end components, using JavaScript and ASP/VBscript. Ported engineering's websites to main web server via source control systems. Created support documentation for web and data projects. Reorganized several websites to better facilitate access to content. Created functional web pages with custom forms. </summary>
-				<item>Developed an automated B2B solution using Oracle stored procedures (PL/SQL) for database view refreshes to subscribe and unsubscribe ~5K member per day. [Citibank]</item>
-				<item>Scheduled a CRON job to automatically pull four XML streams from client website to be flattened using XSLT into a string for import to a database. The database entry was used for dynamically populating marketing emails and websites. [Comcast]</item>
-				<item>Developed an ASP API to subscribe new members based off a preference center submission and triggering an automated confirmation email. [Upromise]</item>
+				<summary></summary>
+				<item>Designed dynamic microsites for start-up clients and multi-national corporations. </item>
+				<item>Produced engaging email marketing campaigns with user segmentation and personalization. </item>
+				<item>Accomplished in optimizing graphics and web-safe colors for fast download time. </item>
+				<item>Produced high quality work with recognition of 12+ months error-free and close attention to detail. </item>
+				<item>Implemented a JavaScript search API for a leading hotel chain. </item>
+				<item>Created support documentation for web and data projects. </item>
+				<item>Automated a B2B solution using Oracle PL/SQL stored procedures to subscribe and unsubscribe ~5K member per day. </item>
+				<item>Developed an ASP API to subscribe new members based off a preference center submission and triggering an automated confirmation email. </item>
 			</role>
 		</job>
 		<job>
@@ -60,9 +69,10 @@
 			<role>
 				<name>Service Desk Support Professional</name>
 				<duration>2004 - 2005</duration>
-				<summary>Demonstrated effective and consistent technical support. Assisted in establishing a successful structure for a growing company. Implemented programs and procedures which provided the tools to automate a testing process. Created system implementation strategies using a standard installation methodology for all new client/server-based products. Performed hardware and software support and installation. Operated computer help desk assisting users with problems and solutions. Performed troubleshooting of computer systems and related equipment. Diagnosed hardware failure and user errors. </summary>
-				<item>Developed custom procedures using MS SQL for New York DOT and DOL to support Asset Management.</item>
-				<item>Acquired an extensive understanding of SQL and how it is used for server-side technologies.</item>
+				<summary></summary>
+				<item>Demonstrated effective and consistent technical support. </item>
+				<item>Implemented procedures which provided the tools to automate a testing process. </item>
+				<item>Performed troubleshooting of computer systems and related equipment. </item>
 			</role>
 		</job>
 		<job>
@@ -71,10 +81,8 @@
 			<role>
 				<name>Desktop Support Team (Internship)</name>
 				<duration>2004</duration>
-				<summary>Worked with a group of 5 to 6 members to keep computers upgraded and operable on a college network. Performed many format/image restorations on a variety of laptops and PCs for students, faculty and staff.</summary>
-				<item>Integrated web page rollovers, marquees, and rotating banner ads with the use of javascript and CSS.</item>
-				<item>Implemented new areas of interest within the web portal available to students, faculty and staff.</item>
-				<item>Aided in technical support to faculty and staff with onsite software/hardware troubleshooting of PC and Mac computers.</item>
+				<summary></summary>
+				<item>Provided base level technical support to faculty, staff, and students. </item>
 			</role>
 		</job>
 	</section>
@@ -84,7 +92,7 @@
 			<name>Morrisville State College</name>
 			<city>Morrisville, NY</city>
 			<degree>
-				<type>B.A., Information Technology</type>
+				<type>B.Tech, Information Technology</type>
 				<focus>Web Development</focus>
 				<year>2004</year>
 			</degree>
@@ -96,81 +104,54 @@
 		</college>
 	</section>
 	<section display="true">
-		<title>Skills</title>
+		<title>Core Qualifications</title>
 		<type>
-			<name>Programming</name>
+			<name></name>
+			<skill>Adobe DPS APIs (JavaScript SDKs)</skill>
 			<skill>Ajax</skill>
-			<skill>Classic ASP</skill>
-			<skill>CSS2 / CSS3</skill>
-			<skill>D/HTML</skill>
-			<skill>JavaScript</skill>
-			<skill>Joose</skill>
-			<skill>JSON</skill>
-			<skill>jQuery</skill>
-			<skill>Perl</skill>
-			<skill>PHP5</skill>
-			<skill>REST / SOAP API</skill>
-			<skill>Shell / Bash / Korn Script</skill>
-			<skill>VBscript</skill>
-			<skill>XML</skill>
-			<skill>XSLT</skill>
-		</type>
-		<type>
-			<name>Imagery</name>
-			<skill>Cropping</skill>
-			<skill>PSD Slicing</skill>
-			<skill>Web Optimization</skill>
-		</type>
-		<type>
-			<name>Database</name>
-			<skill>MS SQL</skill>
-			<skill>MySQL</skill>
-			<skill>Oracle SQL</skill>
-			<skill>PostgreSQL</skill>
-		</type>
-		<type>
-			<name>Software</name>
-			<skill>Adobe Dreamweaver CS3/CS5</skill>
-			<skill>Adobe Photoshop CS3/CS5</skill>
-			<skill>Cisco VPN</skill>
-			<skill>EidosMedia M&amp;eacute;thode / Workbench</skill>
-			<skill>Macromedia Homesite 4.5/5</skill>
-			<skill>Microsoft Office Suite</skill>
-			<skill>Microsoft VSS</skill>
-			<skill>Notepad</skill>
-			<skill>Notepad++</skill>
-			<skill>PL/SQL</skill>
-			<skill>pgAdmin</skill>
-			<skill>PuTTY</skill>
-			<skill>SecureCRT</skill>
-			<skill>S/FTP</skill>
-			<skill>Toad</skill>
-			<skill>Tortoise SVN</skill>
-			<skill>UltraEdit</skill>
-			<skill>VMware</skill>
-		</type>
-		<type>
-			<name>Services &amp; Tools</name>
+			<skill>Backbone.js</skill>
+			<skill>Charles</skill>
 			<skill>Chartbeat / Newsbeat</skill>
+			<skill>CSS3</skill>
 			<skill>Dropbox</skill>
 			<skill>Google Analytics</skill>
-			<skill>Sailthru (ESP)</skill>
+			<skill>Fiddler</skill>
+			<skill>Firebug</skill>
+			<skill>Handlebars</skill>
+			<skill>HTML5</skill>
+			<skill>JavaScript</skill>
+			<skill>JSON</skill>
+			<skill>jQuery</skill>
+			<skill>Methode (CMS)</skill>
+			<skill>MySQL</skill>
+			<skill>Oracle SQL</skill>
+			<skill>Perl</skill>
+			<skill>Photoshop</skill>
+			<skill>PHP5</skill>
+			<skill>PostgreSQL</skill>
+			<skill>SASS / SCSS</skill>
+			<skill>SailThru (ESP)</skill>
+			<skill>SiteCatalyst</skill>
+			<skill>Underscore.js</skill>
+			<skill>VBScript</skill>
+			<skill>XML</skill>
 		</type>
 	</section>
 	<section display="true">
-		<title>Promotions</title>
+		<title>Additional Information</title>
 		<job>
-			<name>Program Engineer</name>
-			<duration>2007 to 2009</duration>
-			<summary>Promoted to a developer role to serve multiple clients in web development and data management.</summary>
+			<name>Github</name>
+			<duration></duration>
+			<summary><a href="http://www.github.com/tkrofecheck">http://www.github.com/tkrofecheck</a></summary>
 		</job>
 		<job>
-			<name>Content Specialist Lead</name>
-			<duration>2007</duration>
-			<summary>Attained a level of knowledge to be considered a technical lead after 2 years for my fellow colleagues with the abilities to train, interview new applicants, and oversee the group with best practices and coding suggestions.</summary>
+			<name>LinkedIn</name>
+			<duration></duration>
+			<summary><a href="http://www.linkedin.com/in/tkrofecheck">http://www.linkedin.com/in/tkrofecheck</a>
+</summary>
 		</job>
 	</section>
-	<section display="true">
+	<section display="false">
 		<title>Resume</title>
 		<name>Download Hardcopy Resume</name>
 		<url>https://www.dropbox.com/s/cthp6aa4uso0nes/TimKrofecheck_Resume.docx</url>
