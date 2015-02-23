@@ -134,7 +134,7 @@
     </step>
     <step>
       <image>2_ew_webapp.png</image>
-      <text>Entertainment Weekly - Adobe DPS Web Application. - visit at https://subscription.timeinc.com/storefront/site/ew-digitalmagazine/login.html?storeCode=SUBS&amp;CGI-App-Data=abc123&amp;CGI-App-Id=com.time.ew.web&amp;CGI-Site=ew-digitalmagazine</text>
+      <text>Entertainment Weekly - Adobe DPS Web Application. - visit at https://subscription.ew.com/storefront/site/ew-digitalmagazine/login.html</text>
     </step>
     <step>
       <image>3_amazon_astore.png</image>
@@ -142,7 +142,7 @@
     </step>
     <step>
       <image>4_tfk_contentviewer.png</image>
-      <text>Sample Web Reader (images/video) to replace Adobe Flash reader for cross-browser support (iPad included). - visit at http://subscription-assets.timeinc.com/prod/assets/contentviewer/v3/index.html?magId=TK&amp;issueDate=20131025</text>
+      <text>Sample Web Reader (images/video) to replace Adobe Flash reader for cross-browser support (iPad included). - visit at http://goo.gl/NdMa4A</text>
     </step>
 </project>
 <project display="true">
