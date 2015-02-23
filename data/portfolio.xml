@@ -10,8 +10,8 @@
 		</step>
 	</project>
 	<project display="true">
-    <name>Time Inc - iPad</name>
-    <folder>timeinc-ipad</folder>
+    <name>Time Inc - iPhone</name>
+    <folder>timeinc-iphone</folder>
     <step>
       <image>1_pe_storefront.png</image>
       <text>Custom webview storefront. Separate code from iPad storefront. Latest issue in hero position along with back issues available in vertical scroll.</text>
