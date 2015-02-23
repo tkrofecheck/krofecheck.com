@@ -125,6 +125,26 @@
 			<text></text>
 		</step>
 	</project>
+<project display="true">>
+    <name>Time Inc. - Miscellaneous Web Projects</name>
+    <folder>timeinc-misc</folder>
+    <step>
+      <image>1_si_lookback.png</image>
+      <text>SI Lookback (SI Vault) standalone jQuery page. http://subscription-assets.timeinc.com/prod/assets/themes/magazines/SUBS/templates/velocity/site/si-lookback1113/si-lookback.html</text>
+    </step>
+    <step>
+      <image>2_ew_webapp.png</image>
+      <text>Entertainment Weekly - Adobe DPS Web Application. https://subscription.timeinc.com/storefront/site/ew-digitalmagazine/login.html?storeCode=SUBS&CGI-App-Data=abc123&CGI-App-Id=com.time.ew.web&CGI-Site=ew-digitalmagazine</text>
+    </step>
+    <step>
+      <image>3_amazon_astore.png</image>
+      <text>Amazon Affiliate Store - iFrame pulled into Time Inc hosted landing page. http://subscription-assets.timeinc.com/prod/assets/themes/magazines/SUBS/templates/velocity/site/amz-timebooks1114/lp.html</text>
+    </step>
+    <step>
+      <image>4_tfk_contentviewer.png</image>
+      <text>Sample Web Reader (images/video) to replace Adobe Flash reader for cross-browser support (iPad included). http://subscription-assets.timeinc.com/prod/assets/contentviewer/v3/index.html?magId=TK&issueDate=20131025</text>
+    </step>
+</project>
 <project display="true">
 		<name>New York Post - iPad Ad Counts</name>
 		<folder>adcounts</folder>
