@@ -9,6 +9,22 @@
 			<text>Wedding website designed for family and friends. - visit at http://wedding.krofecheck.com</text>
 		</step>
 	</project>
+	<project display="true">
+    <name>Time Inc - iPad</name>
+    <folder>timeinc-ipad</folder>
+    <step>
+      <image>1_pe_storefront.png</image>
+      <text>Custom webview storefront. Separate code from iPad storefront. Latest issue in hero position along with back issues available in vertical scroll.</text>
+    </step>
+    <step>
+      <image>2_pe_issue.png</image>
+      <text>Details about the issue when tapping the issue cover from the storefront. </text>
+    </step>
+    <step>
+      <image>3_pe_library.png</image>
+      <text>Library consisting of entitled issues purchased through the storefront, activated via print subscription, or entitled by other (online digital subscription without iTunes) means through login credentials. </text>
+    </step>
+  </project>
 <project display="true">
 		<name>Time Inc - iPad</name>
 		<folder>timeinc-ipad</folder>
