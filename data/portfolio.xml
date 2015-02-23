@@ -10,6 +10,54 @@
 		</step>
 	</project>
 	<project display="true">
+    <name>Time Inc - Time For Kids Classroom App</name>
+    <folder>timeinc-tfkclassroom</folder>
+    <step>
+      <image>1_tfkclass_welcome.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>2_tfkclass_learnmore.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>3_tfkclass_signin.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>4_tfkclass_library.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>5_tfkclass_settings.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>6_tfkclass_issue.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>7_tfkclass_teacherquizkey.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>8_tfkclass_studentquiz.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>9_tfkclass_samples.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>10_tfkclass_faq.png</image>
+      <text></text>
+    </step>
+    <step>
+      <image>11_tfkclass_legal.png</image>
+      <text></text>
+    </step>
+  </project>
+  <project display="true">
     <name>Time Inc - iPhone</name>
     <folder>timeinc-iphone</folder>
     <step>
