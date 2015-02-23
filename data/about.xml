@@ -8,8 +8,7 @@
 		<title></title>
 		<text>
 			Hobbies - video games, on/off/off-off broadway musicals, movies, music, books, building computers&lt;br&gt;
-			Interests - cooking, Android&lt;br&gt;
-			Faves - vacation, ice cream, cupcakes&lt;br&gt;
+			Interests - Sassy & Snowball (my cats), cooking, home improvement&lt;br&gt;
 		</text>
 	</paragraph>
 	<paragraph>
@@ -35,5 +34,9 @@
 		<icon>gplus-icon.png</icon>
 		<url>https://plus.google.com/u/0/100637854059979409240/posts</url>
 	</social>
+	<social>
+    <icon>git-icon.png</icon>
+    <url>https://github.com/tkrofecheck</url>
+  </social>
 	<copyright>krofecheck.com - KrofechecKreations &amp;copy; 2013</copyright>
 </info>
