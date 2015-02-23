@@ -2,14 +2,6 @@
 <portfolio>
 	<videoIcon>/images/video.png</videoIcon>
 	<project display="true">
-		<name>Personal Projects</name>
-		<folder>personal-wedding</folder>
-		<step>
-			<image>1_personal_wedding.png</image>
-			<text>Wedding website designed for family and friends. - visit at http://wedding.krofecheck.com</text>
-		</step>
-	</project>
-	<project display="true">
     <name>Time Inc - Time For Kids Classroom App</name>
     <folder>timeinc-tfkclassroom</folder>
     <step>
@@ -274,4 +266,12 @@
 			<text>Upromise&amp;reg; - Utilizing Classic ASP, VBscript, JavaScript and HTML</text>
 		</step>
 	</project>
+	<project display="true">
+    <name>Wedding Website</name>
+    <folder>personal-wedding</folder>
+    <step>
+      <image>1_personal_wedding.png</image>
+      <text>Wedding website designed for family and friends. - visit at http://wedding.krofecheck.com</text>
+    </step>
+  </project>
 </portfolio>
