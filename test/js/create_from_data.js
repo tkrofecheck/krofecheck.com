@@ -3,7 +3,12 @@
     data_about: null,
     data_portfolio: null,
     data_resume: null,
+    y_offScreen: 150,
     visible: function() {
+      var scope = this;
+      
+      if (screen.width <= 640) scope.y_offScreen = 50;
+      
       $.fn.offScreen = function(distance) {
         var $t            = $(this),
             $w            = $(window),
@@ -23,20 +28,20 @@
 
       allMods.each(function(i, el) {
         var el = $(el);
-        if (!el.offScreen(150).bottom) { el.addClass("already-visible"); } 
+        if (!el.offScreen(scope.y_offScreen).bottom) { el.addClass("already-visible"); } 
       });
 
       win.on("scroll resize",function(event) {
         allMods.each(function(i, el) {
           var el = $(el);
-          if (!el.offScreen(150).top && !el.offScreen(150).bottom) 
+          if (!el.offScreen(scope.y_offScreen).top && !el.offScreen(scope.y_offScreen).bottom) 
           {
             el.removeClass("already-visible off-screen-top off-screen-bottom"); 
             el.addClass("come-in"); 
           } 
           else
           {
-            if(el.offScreen(150).top) { el.addClass("off-screen-top"); }
+            if(el.offScreen(scope.y_offScreen).top) { el.addClass("off-screen-top"); }
             else { el.addClass("off-screen-bottom"); }
           }
         }); //allMods.each()
