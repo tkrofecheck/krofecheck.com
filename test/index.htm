@@ -2,20 +2,34 @@
 <html class="">
   <head>
     <title>Test</title>
-    <meta charset="UTF-8">
-    <meta name="author" CONTENT="Tim Krofecheck">
-    <meta name="copyright" CONTENT="&copy; 2014 KrofechecKreations">
-    <meta name="description" content="Experienced Web Developer Portfolio and Resume">
-    <meta name="keywords" content="Krofecheck, New York Post, Web, Developer, JSON, AJAX, CSS, jQuery, Javascript, HTML, XML, PHP"> 
-    <meta name="googlebot" CONTENT="noarchive">
-    <meta http-equiv="cache-control" CONTENT="no-store">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="author" CONTENT="Tim Krofecheck" />
+    <meta name="description" content="Experienced Web Developer Portfolio and Resume" />
+    <meta name="keywords" content="Krofecheck, New York Post, Web, Developer, JSON, AJAX, CSS, jQuery, Javascript, HTML, XML, PHP" /> 
+    <meta name="googlebot" CONTENT="noarchive" />
+    <meta http-equiv="cache-control" CONTENT="no-store" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     
     <link href="css/normalize.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" media="all" rel="stylesheet" type="text/css" />
     
     <!-- Break away from CSS prefixes (thank you!!!) -->
-    <script type="text/javascript" src="js/prefixfree.min.js" ></script>
+    <script type="text/javascript">
+      (function() {
+        function async_load(){
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'http://www.krofecheck/test/js/prefixfree.min.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        if (window.attachEvent)
+            window.attachEvent('onload', async_load);
+        else
+            window.addEventListener('load', async_load, false);
+      })();
+    </script>
   </head>
   
   <body class="angled stripes">
@@ -34,7 +48,7 @@
       </div>
     </div>
     
-    <script type="text/javascript" src="js/jquery/jquery-1.11.2.js" ></script>
+    <script type="text/javascript" src="js/jquery/jquery-1.11.2.min.js" ></script>
     <script type="text/javascript" src="js/jquery/jquery.mousewheel.min.js"></script>
     <script type="text/javascript" src="js/create_from_data.js" ></script>
   </body>
