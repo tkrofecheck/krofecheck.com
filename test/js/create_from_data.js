@@ -70,8 +70,9 @@
 })();
 
 function set_aboutDataToDOMelem(data) {
-  var id = "#about", div, html;
+  var id = "#about", div, section, html;
   
+  section = $("<section></section>");
   div = $("<div></div>");
   div.addClass("module");
   div.addClass("biography");
@@ -84,11 +85,14 @@ function set_aboutDataToDOMelem(data) {
     );
   });
   div.html(html);
-  $(id + " section").append(div);
+  section.append(div);
+  $(id + " article").append(section);
 }
 
 function set_portfolioDataToDOMelem(data) {
-  var id = "#portfolio", div;
+  var id = "#portfolio", div, article, section;
+  
+  article = $(id + " article");
   
   $.each(data.projects, function(i, el) {
     var proj = data.projects[i],
@@ -99,29 +103,36 @@ function set_portfolioDataToDOMelem(data) {
       div = $("<div></div>");
       div.html(proj.name);
       div.addClass("project");
-      $(id + " section").append(div);
+      article.append(div);
       
+      section = $("<section></section>");
       $.each(steps, function(j, el) {
         div = $("<div></div>");
         div.addClass("module");
         div.addClass("project-image");
         div.css("background-image", "url(portfolio/" + folder + "/" + steps[j].image + ")");
-        $(id + " section").append(div);
+        $(section).append(div);
       });
+      article.append(section);
     }
   });
 }
 
 function set_resumeDataToDOMelem(data) {
-  var id = "#resume", div;
+  var id = "#resume", div, article;
+  
+  article = $(id + " article");
   
   $.each(data.sections, function(i, el) {
     var sect = data.sections[i];
+    
     if (sect.display == "true") {
+      section = $("<section></section>");
       div = $("<div></div>");
       div.addClass("module");
       div.html(sect.name);
-      $(id + " section").append(div);
+      section.append(div);
+      article.append(section);
     }
   });
 }

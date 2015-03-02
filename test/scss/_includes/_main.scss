@@ -2,12 +2,16 @@
   box-sizing: border-box;
 }
 
-section {
+article {
   background: #eee;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   overflow: hidden;
+}
+
+section {
+  width: 100%;
 }
 
 .module {
@@ -52,6 +56,13 @@ body {
   float: left;
   background-size: 50px 50px;
   box-shadow: 1px 1px 8px gray;
+}
+
+.project {
+  position: relative;
+  display: block;
+  padding-bottom: 10px;
+  clear: left;
 }
 
 .project-image {
