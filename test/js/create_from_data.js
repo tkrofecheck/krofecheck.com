@@ -95,7 +95,7 @@ function set_aboutDataToDOMelem(data) {
 }
 
 function set_portfolioDataToDOMelem(data) {
-  var id = "#portfolio", div, article, section;
+  var id = "#portfolio", div, article, section, anchor;
   
   article = $(id + " article");
   
@@ -111,11 +111,19 @@ function set_portfolioDataToDOMelem(data) {
       article.append(div);
       
       section = $("<section></section>");
-      $.each(steps, function(j, el) {
+      $.each(steps, function(j, el) {        
         div = $("<div></div>");
         div.addClass("module");
         div.addClass("project-image");
         div.css("background-image", "url(portfolio/" + folder + "/" + steps[j].image + ")");
+        
+        anchor = $("<a></a>");
+        anchor.attr({
+          "href" : "portfolio/" + folder + "/" + steps[j].image,
+          "data-featherlight" : "image"
+        });
+        div.append(anchor);
+        
         $(section).append(div);
       });
       article.append(section);

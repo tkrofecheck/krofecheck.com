@@ -22,6 +22,7 @@ section {
   width: 48%;
   min-height: 200px;
   background: white;
+  background-repeat: no-repeat;
   position: relative;
   float: left;
   padding: 20px;
@@ -30,38 +31,53 @@ section {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transform-origin: center center;
 }
-/* line 26, ../scss/_includes/_main.scss */
+/* line 27, ../scss/_includes/_main.scss */
 .module:nth-child(even) {
   margin-right: 0;
 }
-/* line 31, ../scss/_includes/_main.scss */
+/* line 32, ../scss/_includes/_main.scss */
 .module.off-screen-top {
   transform: translateY(-150px);
 }
-/* line 34, ../scss/_includes/_main.scss */
+/* line 35, ../scss/_includes/_main.scss */
 .module.off-screen-bottom {
   transform: translateY(150px);
 }
-
 /* line 39, ../scss/_includes/_main.scss */
+.module a {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* line 48, ../scss/_includes/_main.scss */
 #about .module, #resume .module {
   width: 100%;
   background-size: cover;
 }
+/* line 52, ../scss/_includes/_main.scss */
+#about .module .text, #resume .module .text {
+  margin-bottom: 15px;
+}
 
-/* line 44, ../scss/_includes/_main.scss */
+/* line 57, ../scss/_includes/_main.scss */
 body {
   background-size: cover;
   background-attachment: fixed;
 }
 
-/* line 49, ../scss/_includes/_main.scss */
+/* line 62, ../scss/_includes/_main.scss */
 .angled {
   background-color: #ac0;
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
 }
 
-/* line 54, ../scss/_includes/_main.scss */
+/* line 67, ../scss/_includes/_main.scss */
 .stripes {
   width: 100%;
   float: left;
@@ -69,7 +85,7 @@ body {
   box-shadow: 1px 1px 8px gray;
 }
 
-/* line 61, ../scss/_includes/_main.scss */
+/* line 74, ../scss/_includes/_main.scss */
 .project {
   position: relative;
   display: block;
@@ -77,24 +93,24 @@ body {
   clear: left;
 }
 
-/* line 68, ../scss/_includes/_main.scss */
+/* line 81, ../scss/_includes/_main.scss */
 .project-image {
   background-position: top left;
   background-size: cover;
 }
 
-/* line 73, ../scss/_includes/_main.scss */
+/* line 86, ../scss/_includes/_main.scss */
 .come-in {
   transform: translateY(0);
   transition: transform 0.8s ease-out;
 }
 
-/* line 77, ../scss/_includes/_main.scss */
+/* line 90, ../scss/_includes/_main.scss */
 .come-in:nth-child(odd) {
   transition-duration: 0.5s;
 }
 
-/* line 80, ../scss/_includes/_main.scss */
+/* line 93, ../scss/_includes/_main.scss */
 .already-visible {
   transform: translateY(0);
   transition: none;
