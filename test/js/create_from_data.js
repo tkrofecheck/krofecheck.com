@@ -4,6 +4,27 @@
     data_portfolio: null,
     data_resume: null,
     y_offScreen: 150,
+    fade_in: function() {
+      /* Every time the window is scrolled ... */
+      $(window).scroll( function(){
+      
+          /* Check the location of each desired element */
+          $('.hideme').each( function(i){
+              
+              var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+              var bottom_of_window = $(window).scrollTop() + $(window).height();
+              
+              /* If the object is completely visible in the window, fade it it */
+              if( bottom_of_window > bottom_of_object ){
+                  
+                  $(this).animate({'opacity':'1'},500);
+                      
+              }
+              
+          }); 
+      
+      });
+    },
     visible: function() {
       var scope = this;
       
@@ -62,7 +83,7 @@
           set_portfolioDataToDOMelem(scope.data_portfolio),
           set_resumeDataToDOMelem(scope.data_resume)
         ).then(function() {
-          scope.visible();
+          scope.fade_in();
         });
       });
     },
@@ -114,6 +135,7 @@ function set_portfolioDataToDOMelem(data) {
       $.each(steps, function(j, el) {        
         div = $("<div></div>");
         div.addClass("module");
+        div.addClass("hideme");
         div.addClass("project-image");
         div.css("background-image", "url(portfolio/" + folder + "/" + steps[j].image + ")");
         
