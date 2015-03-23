@@ -50,6 +50,18 @@
     </step>
   </project>
   <project display="true">
+    <name>Time Inc - Time For Kids Classroom App</name>
+    <folder>timeinc-tfkclassroom</folder>
+    <step>
+      <image>1_coastal.png</image>
+      <text>Forgot Password Email (desktop version)</text>
+    </step>
+    <step>
+      <image>2_coastal_mobile.png</image>
+      <text>Forgot Password Email (mobile version)</text>
+    </step>
+  </project>
+  <project display="true">
     <name>Time Inc - iPhone</name>
     <folder>timeinc-iphone</folder>
     <step>
