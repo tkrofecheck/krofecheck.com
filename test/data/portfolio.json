@@ -43,6 +43,21 @@
     },
     {
       "display": "true",
+      "name": "Time Inc - Email",
+      "folder": "timeinc-iphone",
+      "steps": [
+        {
+          "image": "1_coastal.png",
+          "text": "Forgot Password Email (desktop version)"
+        },
+        {
+          "image": "2_coastal_mobile.png",
+          "text": "Forgot Password Email (mobile version)"
+        }
+      ]
+    },
+    {
+      "display": "true",
       "name": "Time Inc - iPhone",
       "folder": "timeinc-iphone",
       "steps": [
