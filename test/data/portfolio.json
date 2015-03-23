@@ -44,7 +44,7 @@
     {
       "display": "true",
       "name": "Time Inc - Email",
-      "folder": "timeinc-iphone",
+      "folder": "timeinc-email",
       "steps": [
         {
           "image": "1_coastal.png",
