@@ -50,8 +50,8 @@
     </step>
   </project>
   <project display="true">
-    <name>Time Inc - Time For Kids Classroom App</name>
-    <folder>timeinc-tfkclassroom</folder>
+    <name>Time Inc - Email</name>
+    <folder>timeinc-email</folder>
     <step>
       <image>1_coastal.png</image>
       <text>Forgot Password Email (desktop version)</text>
