@@ -2,11 +2,16 @@
 <html lang="en" ng-app="myApp">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>Krofecheck.com (Angular)</title>
-  <script src="js/lib/angular.min.js"></script>
-  <script src="js/controllers.js"></script>
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  
+  <script src="js/respond.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/controllers.js"></script>
 </head>
 <body>
 
@@ -69,14 +74,19 @@
     </li>
   </ul>
 
-  <ul class="list">
+  <ul>
      <li class="project cf" ng-repeat="project in portfolio.projects" ng-if="project.display">
         {{project.name}}
-          <div class="image cf" ng-repeat="image in project.images">
-            <img ng-src="images/portfolio/{{project.folder}}/{{image.name}}.jpg" alt="Photo of {{image.text}}" width="200"/>
-          </div>
+          <ul>
+            <li class="thumbnail cf col-sm-3 col-xs-6" ng-repeat="image in project.images">
+              <img ng-src="images/portfolio/{{project.folder}}/{{image.name}}.jpg" alt="Photo of {{image.text}}" width="200"/>
+            </li>
+          </ul>
      </li>
   </ul>
 </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
